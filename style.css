@@ -1,0 +1,26 @@
+.banner{
+    background-color: #e21617;
+    display:flex;
+    font-size: justify;
+    width: 100%;
+    justify-content:space-around;
+    color:white
+
+}
+.menu{
+    background-color: yellow;
+    border: solid red;
+    display:flex;
+    justify-content: space-around;
+
+}
+img{
+    height:120px;
+}
+li{
+    list-style: none;
+
+}
+a{
+    color:black
+}
