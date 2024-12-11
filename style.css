@@ -8,11 +8,23 @@
 
 }
 .menu{
-    background-color: yellow;
-    border: solid red;
+    background-color: white;
+    border: solid #e21617;
     display:flex;
     justify-content: space-around;
 
+}
+@media (max-width:500px){
+    .menu{
+      display:flex;
+      flex-flow:column wrap;
+      float:left;
+      gap:50px;
+      margin-right: 10px;
+    }
+    .menu>li{
+        width:100px;
+    }
 }
 img{
     height:120px;
@@ -22,5 +34,5 @@ li{
 
 }
 a{
-    color:black
+    color:#e21617
 }
